@@ -10,12 +10,11 @@ public class Main {
         Scanner leitor = new Scanner(System.in);
         int quantidadeAlunos=0;
         while(altura!=-1){
-            System.out.println("digite a altura");
+            System.out.println("digite a altura ou -1 para finalizar");
             altura= leitor.nextDouble();
             if(altura!=-1){
                 somaAlturas+=altura;
                 quantidadeAlunos++;
-
             }
         }
         media = somaAlturas/quantidadeAlunos;
