@@ -9,11 +9,12 @@ public class Main {
         int valor1,valor2,res;
         Scanner leitor= new Scanner(System.in);
         System.out.println("teste");
-        System.out.println(" digite o primeiro valor");
+        System.out.println(" digite o o valor em dollar ");
         valor1= leitor.nextInt();
-        System.out.println("digite o segundo valor");
+        System.out.println("digite o alor do dolar ");
         valor2= leitor.nextInt();
-        res=valor1+valor2;
-        System.out.println("a soma dos 2 numeros " +res);
+        res=valor1*valor2;
+        System.out.println("total do valor em reais R$" +res);
     }
 }
+
