@@ -3,6 +3,7 @@ package br.com.aula4.implementacao;
 import br.com.aula4.beans.Banco;
 import br.com.aula4.beans.Cliente;
 import br.com.aula4.beans.ContaBancaria;
+import br.com.aula4.util.EntradaTela;
 
 public class ExecutarContaBancaria {
     public static void main(String[] args) {
@@ -30,5 +31,13 @@ public class ExecutarContaBancaria {
         System.out.println(cc3.extrato());
 
         //  Entrada via Tela(swing) /Teclado (Scanner)
+
+        Banco itau = new Banco(EntradaTela.texto("Digite Razao:"),EntradaTela.inteiro("Digite o idBancario:"));
+
+        EntradaTela.show(itau.getRazaoSocial());
+
+        // Cliente
+        // ContaBancaria
+
     }
 }
