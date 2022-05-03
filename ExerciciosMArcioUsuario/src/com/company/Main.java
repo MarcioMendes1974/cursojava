@@ -11,7 +11,7 @@ public class Main {
         usuario = JOptionPane.showInputDialog("Digite o Usurio : ");
         senha = JOptionPane.showInputDialog("Digite a senha : ");
 
-        if(usuario.equalsIgnoreCase("marcio") && senha.equalsIgnoreCase("100774") ){
+        if(usuario.equalsIgnoreCase("marcio mendes") && senha.equalsIgnoreCase("100774") ){
             JOptionPane.showMessageDialog(null,"acesso liberado ");
         }else{
             JOptionPane.showMessageDialog(null,"Usuario ou senha invalida");
